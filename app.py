@@ -2,7 +2,11 @@ import streamlit as st
 import joblib
 st.title('Sentiment Analysis Deployment')
 test_model = joblib.load('Chatbot')
-#getSeverityDict()
+clf1  = DecisionTreeClassifier()
+model=SVC()
+readn(nstr)
+calc_condition(exp,days)
+getSeverityDict()
 getDescription()
 getprecautionDict()
 getInfo()
