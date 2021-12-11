@@ -1,7 +1,7 @@
 import streamlit as st
 import joblib
 st.title('Sentiment Analysis Deployment')
-test_model = joblib.load('Sentiment-Analysis')
+test_model = joblib.load('ChatBot')
 getSeverityDict()
 getDescription()
 getprecautionDict()
